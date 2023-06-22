@@ -9,3 +9,17 @@ export const decNumber = () => {
     type: "DECREMENT",
   };
 };
+
+export const divideNumber = (num) => {
+  return {
+    type: "DIVIDE",
+    payload: num,
+  };
+};
+
+export const multiplyNumber = (num) => {
+  return {
+    type: "MULTIPLY",
+    payload: num,
+  };
+};
